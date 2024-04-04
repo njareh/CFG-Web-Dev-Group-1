@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'permanent-marker';
+    src: url(Permanent_Marker/PermanentMarker-Regular.ttf);
+}
+
+.header {
+    background-color: #F391B1;
+    display: flex;
+    flex-direction: inline;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-bottom:10px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+
+.logo {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    flex-direction: inline;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'permanent-marker';
+    color: #FFFF;
+}    
+
+h2 {
+    color: #FFFF;
+    font-family: 'permanent-marker';
+    font-size: 70px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+a.logo:hover {
+    transform: scale(1.3);
+    transition: 0.9s;
+}
+
+
+.navbar {
+    float: right;
+    display: block;
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between; /* Items are spaced evenly */
+    align-items: center; /* Center items vertically */
+    background-color:#F391B1;
+    padding: 10px 20px;
+}
+
+#submitrecipe {
+  background-color: #F391B1;
+  border: none;
+}
+
+#search {
+  color:#F391B1;
+  background-color: #F391B1;
+  border: none;
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 70vh ;
+    background-color: #F391B1;
+  }
+
+.video-container video {
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    opacity: 0.7;
+}
+
+.card-img-top {
+    height: 40%;
+    width: 40%;
+}
+
+#main-card {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 40px;
+    box-shadow: 10px, 5px, black;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    background-color: #c0ffee
+}
+.card-text {
+    font-size: 10pt;
+}
+
+#main-button {
+    background-color: #F391B1;
+    border: none;
+}
+
+.featured-recipes {
+    background-color: #F391B1;
+}
