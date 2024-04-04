@@ -32,6 +32,19 @@
     color: #FFFF;
 }    
 
+.logo img {
+    animation: spin 10s linear infinite; /* Apply the spin animation */
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg); /* Start rotation from 0 degrees */
+    }
+    to {
+        transform: rotate(360deg); /* End rotation at 360 degrees (full circle) */
+    }
+}
+
 h2 {
     color: #FFFF;
     font-family: 'permanent-marker';
