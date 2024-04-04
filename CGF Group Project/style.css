@@ -8,7 +8,7 @@
 }
 
 .header {
-    background-color: #F391B1;
+    background-color:#F391B1;
     display: flex;
     flex-direction: inline;
     justify-content: space-between;
@@ -16,6 +16,8 @@
     padding-bottom:10px;
     padding-top: 10px;
     align-items: center;
+    border-bottom: #232323 6px solid;
+    border-top: #232323 6px solid;
 }
 
 
@@ -60,9 +62,43 @@ a.logo:hover {
 }
 
 #submitrecipe {
-  background-color: #F391B1;
-  border: none;
-}
+    background-color: #F391B1;
+    border: 2px solid #232323;
+    border-radius: 30px;
+    box-shadow: #232323 4px 4px 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+#submitrecipe:hover {
+    background-color: #fff;
+    color:#F391B1;
+  }
+
+#submitrecipe:active {
+    box-shadow: #232323 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+
+#main-button:hover {
+    background-color: #fff;
+    color:#F391B1;
+  }
+
+#main-button:active {
+    box-shadow: #232323 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
 
 #search {
   color:#F391B1;
@@ -86,15 +122,32 @@ a.logo:hover {
 }
 
 .card-img-top {
-    height: 40%;
-    width: 40%;
+    height: 60%;
+    width: 60%;
 }
 
 #main-card {
     display: flex;
     margin-left: 80px;
-    margin-top: 40px;
-    box-shadow: 10px, 5px, black;
+    margin-top: 60px;
+    padding-right: 30px;
+    box-shadow: #232323 4px 4px 0 0;
+    border: 6px solid #232323;
+    border-radius: 100px;
+    overflow: hidden;
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+}   
+
+.card-body {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#main-card h5 {
+    font-size: 12pt;
+    font-weight: bold;
 }
 
 .card {
@@ -104,12 +157,27 @@ a.logo:hover {
     background-color: #c0ffee
 }
 .card-text {
-    font-size: 10pt;
+    font-size:9pt;
 }
 
 #main-button {
     background-color: #F391B1;
-    border: none;
+        border: 2px solid #232323;
+        border-radius: 30px;
+        box-shadow: #232323 4px 4px 0 0;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 0 18px;
+        line-height: 30px;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      
 }
 
 .featured-recipes {
