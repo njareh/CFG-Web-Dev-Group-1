@@ -123,14 +123,13 @@ a.logo:hover {
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: 70vh ;
+    height: 100vh ;
     background-color: #F391B1;
   }
 
 .video-container video {
     width: 100%;
     position: absolute;
-    bottom: 10%;
     opacity: 0.7;
 }
 
@@ -167,14 +166,27 @@ a.logo:hover {
     display: flex;
     flex-direction: row;
     border: none;
-    background-color: #c0ffee
+    background-color: #c0ffee;
+    margin-left: 80px;
+    margin-top: 60px;
+    padding-right: 30px;
+    box-shadow: #232323 4px 4px 0 0;
+    border: 6px solid #232323;
+    border-radius: 100px;
+    overflow: hidden;
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+
 }
+
 .card-text {
     font-size:9pt;
 }
 
 #main-button {
-    background-color: #F391B1;
+        background-color: #F391B1;
         border: 2px solid #232323;
         border-radius: 30px;
         box-shadow: #232323 4px 4px 0 0;
@@ -195,4 +207,26 @@ a.logo:hover {
 
 .featured-recipes {
     background-color: #F391B1;
+    border-bottom: #232323 6px solid;
+    border-top: #232323 6px solid;
+}
+
+
+#button {
+    background-color: #F391B1;
+        border: 2px solid #232323;
+        border-radius: 30px;
+        box-shadow: #232323 4px 4px 0 0;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 0 18px;
+        line-height: 30px;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
 }
