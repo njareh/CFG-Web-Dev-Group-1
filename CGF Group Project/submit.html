@@ -24,12 +24,36 @@
         </button>
     </div>
     </header>    
-    <div class="recipe-page">
-      <h1>Fruit Sponge Layer Cake</h1>
-      <img src="Images/1_sponge_fruit layer.jpg" class="recipe-image" alt="photo of a fruit sponge layer cake">
-      <p class="prep-time">Prep Time:</p>
-      <p class="bake-time">Bake Time:</p>
-      <p class="method">Method:</p>
+    <div class="form-container">
+        <h2>Submit Your Recipe</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <input type="text" id="fullName" required placeholder="full name"> 
+            </div>
+            <div class="form-group">
+                <input type="text" id="email" required placeholder="email address">
+            </div>
+            <div class="form-group">
+                <input type="text" id="country" required placeholder="country">
+            </div>
+            <div class="form-group">
+                <input type="text" id="recipeName" required placeholder="recipe name">
+            </div>
+            <div class="form-group">
+                <input type="text" id="prepTime" required placeholder="prep time">
+            </div>
+            <div class="form-group">
+                <input type="text" id="bakingTime" required placeholder=" baking time">
+            </div>
+            <div class="form-group">
+                <textarea id="instructions" required placeholder="instructions"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="file" id="photo" accept="image/*">
+                <label for="photo">upload photo</label>
+            </div>
+            <button type="submit">SUBMIT</button>
+        </form>
     </div>
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
