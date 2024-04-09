@@ -334,6 +334,9 @@ form button {
     background-color:#F391B1;
     color:#232323;
     text-align: center;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
 }
 
 .recipe-page h1 {
@@ -341,6 +344,11 @@ form button {
     font-family: 'permanent-marker';
     color: #FFFF;
     font-size: 50px;
+}
+
+.recipe-page ul {
+    list-style-type: none;
+   padding-right: 32px;
 }
 
 .recipe-image {
@@ -362,5 +370,9 @@ form button {
 }
 
 .method {
+    font-weight: 600;
+}
+
+.ingredients {
     font-weight: 600;
 }
