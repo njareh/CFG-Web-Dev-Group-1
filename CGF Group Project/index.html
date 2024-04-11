@@ -17,10 +17,12 @@
     </a> 
     <div class="navbar">
       <a href="submit.html" ><button" class="btn btn-primary btn-lg" id="submitrecipe">submit a recipe</button></a>
-      <div class="container">
-        <input type="text" placeholder="Search...">
-        <div class="search"></div>
-      </div>
+      <button type="button" class="btn btn-primary btn-lg" id="search">
+        <form action="/search" method="get">
+            <input type="text" name="query" placeholder="Search a recipe...">
+            <input type="submit" value="Search" id="search">
+        </form>
+    </button>
     </div>
       
     </header>  
