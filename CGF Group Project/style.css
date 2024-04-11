@@ -12,6 +12,11 @@
     src: url(Poppins/Poppins-Regular.ttf);
 }    
 
+@font-face {
+    font-family: 'poppinsBold';
+    src: url(Poppins/Poppins-Bold.ttf);
+}
+
 .header {
     background-color:#F391B1;
     display: flex;
@@ -91,6 +96,7 @@ a.logo:not(hover) {
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
+    font-family: 'poppins';
     font-weight: 600;
     font-size: 18px;
     padding: 0 18px;
@@ -111,6 +117,7 @@ header form {
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
+    font-family: 'poppins';
     font-weight: 600;
     font-size: 18px;
     padding: 0 18px;
@@ -192,8 +199,9 @@ header input {
     border: 6px solid #232323;
     border-radius: 100px;
     overflow: hidden;
+    font-family: 'poppins';
     font-size: 10pt;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;
 }   
 
@@ -204,7 +212,7 @@ header input {
 
 #main-card h5 {
     font-size: 12pt;
-    font-weight: bold;
+    font-family: 'poppinsBold';
 }
 
 .card {
@@ -219,6 +227,7 @@ header input {
     border-radius: 100px;
     overflow: hidden;
     font-size: 10pt;
+    font-family: 'poppins';
     font-weight: bold;
     text-align: center;
     align-items: center;
@@ -238,6 +247,7 @@ header input {
         cursor: pointer;
         display: inline-block;
         font-weight: 600;
+        font-family: 'poppins';
         font-size: 18px;
         padding: 0 18px;
         line-height: 30px;
@@ -313,6 +323,14 @@ header input {
     margin-bottom: 50px;
 }
 
+#ingredients {
+    font-size: 18px;
+    font-weight: 600;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+
 form button , label {
     background-color: #F391B1;
     border: 2px solid #232323;
@@ -361,9 +379,15 @@ form button {
     font-size: 50px;
 }
 
+.recipe-page h4 {
+    font-family: 'poppins';
+    margin-bottom: 20px;
+}
+
 .recipe-page ul {
     list-style-type: none;
    padding-right: 32px;
+   font-family: 'poppins';
 }
 
 .recipe-image {
@@ -378,16 +402,20 @@ form button {
 
 .prep-time {
     font-weight: 600;
+    font-family: 'poppinsBold';
 }
 
 .bake-time {
     font-weight: 600;
+    font-family: 'poppinsBold';
 }
 
 .method {
     font-weight: 600;
+    font-family: 'poppinsBold';
 }
 
 .ingredients {
     font-weight: 600;
+    font-family: 'poppinsBold';
 }
